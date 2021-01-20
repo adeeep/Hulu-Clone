@@ -1,0 +1,33 @@
+.Video{
+    color:cornsilk;
+    widows: 500px;
+    height: 400px;
+    padding: 5px;
+    font-size: 10px;
+    transition: transform 100ms;
+}
+
+.Video > img{
+    height: 300px;
+    object-fit: contain;
+    width: 300px;
+}
+
+.Video:hover{
+    transform: scale(1.09);
+}
+
+.Video >p{
+    font-size: 15px;
+}
+
+.Video_stats{
+    display: none;
+
+}
+.Video:hover > .Video_stats{
+    display: inline;
+}
+.mate{
+    font-size: 1px;
+}

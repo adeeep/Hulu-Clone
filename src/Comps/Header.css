@@ -1,0 +1,41 @@
+.header{
+    color: white;
+    display: flex;
+    /* background-color: black; */
+    /* background-image: linear-gradient(to right,#051421,#042727); */
+    align-items: center;
+    /* justify-content:space-evenly ; */
+    padding: 20px;
+    
+    
+}
+
+
+
+/* .icon > .MuiSvgIcon-root{
+  
+    font-size: 30px;
+} */
+
+
+.icons{
+    display: flex;
+    align-items: center;
+    text-align: center;
+     font-size: 10px;
+}
+
+.icon{
+    display:flex;
+    flex-direction: coloumn;
+    cursor: pointer;
+    width:100px;
+
+
+}
+
+/* .icon > p{
+    margin-right: auto;
+    margin-left: auto;
+
+} */
